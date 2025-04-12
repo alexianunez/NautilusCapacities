@@ -1,0 +1,2599 @@
+{
+    "success": true,
+    "data": {
+        "Branches": [
+            {
+                "Oid": 4,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Montréal",
+                    "CityOid": 319,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.594411259932,
+                    "Lng": -73.574606431491,
+                    "Name": null,
+                    "PhoneNumber": "(514)353-7860",
+                    "PostalCode": "H1S 1N2",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "6705 Rue Jean-Talon Est, 1er étage"
+                },
+                "BranchNumber": "11",
+                "Occupancy": 20,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "St-Léonard",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H30M",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H30M",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 34,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Repentigny",
+                    "CityOid": 557,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.753316277121,
+                    "Lng": -73.444113135338,
+                    "Name": null,
+                    "PhoneNumber": "(450)582-0961",
+                    "PostalCode": "J6A 7B3",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "91 Rue Normandie"
+                },
+                "BranchNumber": "12",
+                "Occupancy": 19,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Repentigny",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 23,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Montréal",
+                    "CityOid": 319,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.440636836283,
+                    "Lng": -73.621197938919,
+                    "Name": null,
+                    "PhoneNumber": "(514)366-0711",
+                    "PostalCode": "H8N 1X3",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "7475 Boul. Newman, 2e étage"
+                },
+                "BranchNumber": "15",
+                "Occupancy": 23,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Lasalle",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 71,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Montréal",
+                    "CityOid": 319,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.501274998091,
+                    "Lng": -73.568717850926,
+                    "Name": null,
+                    "PhoneNumber": "(514)666-0166",
+                    "PostalCode": "H3B 3Y1",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "1 Place Ville Marie, Local 11325"
+                },
+                "BranchNumber": "18",
+                "Occupancy": 32,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Place Ville Marie",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT20H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT20H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT20H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT20H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT20H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": true,
+                        "ClosingHour": null,
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": true,
+                        "ClosingHour": null,
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 36,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Mont-Royal",
+                    "CityOid": 231,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.5266428,
+                    "Lng": -73.6487057,
+                    "Name": null,
+                    "PhoneNumber": "(514)341-1553",
+                    "PostalCode": "H3P 3E9",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "2305 Rockland, Suite 42"
+                },
+                "BranchNumber": "21",
+                "Occupancy": 27,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Rockland",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H30M",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H30M",
+                        "RegularBusinessHours": false
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H30M",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H30M",
+                        "RegularBusinessHours": false
+                    }
+                ]
+            },
+            {
+                "Oid": 24,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Laval",
+                    "CityOid": 488,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.582704065882,
+                    "Lng": -73.70818734169,
+                    "Name": null,
+                    "PhoneNumber": "(450)668-2686",
+                    "PostalCode": "H7M 2Y4",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "1780 Blv des Laurentides"
+                },
+                "BranchNumber": "22",
+                "Occupancy": 26,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Laval",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H30M",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 22,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Montréal",
+                    "CityOid": 319,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.466684761594,
+                    "Lng": -73.550366163254,
+                    "Name": null,
+                    "PhoneNumber": "(514)765-9620",
+                    "PostalCode": "H3E 1A9",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "500 A Chemin du Golf"
+                },
+                "BranchNumber": "25",
+                "Occupancy": 49,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Ile Des Soeurs",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H30M",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 12,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Montréal",
+                    "CityOid": 319,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.516698908595,
+                    "Lng": -73.558710145369,
+                    "Name": null,
+                    "PhoneNumber": "(514)905-9999",
+                    "PostalCode": "H2L 3T3",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "1431 St-André, 3e étage "
+                },
+                "BranchNumber": "28",
+                "Occupancy": 38,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Berri-UQAM",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT23H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT23H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT23H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT23H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT23H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT20H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT20H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT9H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 11,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Brossard",
+                    "CityOid": 242,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.468124910495,
+                    "Lng": -73.468600887836,
+                    "Name": null,
+                    "PhoneNumber": "(450)465-6113",
+                    "PostalCode": "J4W 3C6",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "1870 Panama"
+                },
+                "BranchNumber": "32",
+                "Occupancy": 36,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Brossard",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H30M",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 3,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Longueuil",
+                    "CityOid": 278,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.522948489111,
+                    "Lng": -73.485150933266,
+                    "Name": null,
+                    "PhoneNumber": "(450)674-6264",
+                    "PostalCode": "J4J 2H6",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "550 Blv Curé-Poirier Ouest"
+                },
+                "BranchNumber": "33",
+                "Occupancy": 23,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Longueuil",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT9H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 30,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Montréal",
+                    "CityOid": 319,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.5013748,
+                    "Lng": -73.5618499,
+                    "Name": null,
+                    "PhoneNumber": "(514)871-9544",
+                    "PostalCode": "H4Z 1A1",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "800 Place Victoria, Tour de la Bourse"
+                },
+                "BranchNumber": "34",
+                "Occupancy": 10,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Place Victoria",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT20H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT20H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT20H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT20H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT20H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": true,
+                        "ClosingHour": null,
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": true,
+                        "ClosingHour": null,
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 10,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Boucherville",
+                    "CityOid": 330,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.572074230325,
+                    "Lng": -73.440433144569,
+                    "Name": null,
+                    "PhoneNumber": "(450)449-1334",
+                    "PostalCode": "J4B 7M6",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "1235 Ampère, Suite 400"
+                },
+                "BranchNumber": "35",
+                "Occupancy": 26,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Boucherville",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    }
+                ]
+            },
+            {
+                "Oid": 9,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Blainville",
+                    "CityOid": 529,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.66651193258,
+                    "Lng": -73.86994600296,
+                    "Name": null,
+                    "PhoneNumber": "(450)433-3355",
+                    "PostalCode": "J7C 2K4",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "775 blv Curé-Labelle"
+                },
+                "BranchNumber": "37",
+                "Occupancy": 26,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Blainville",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 42,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Terrebonne",
+                    "CityOid": 498,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.713008149691,
+                    "Lng": -73.652531504631,
+                    "Name": null,
+                    "PhoneNumber": "(450)964-7177",
+                    "PostalCode": "J6X 2Z6",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "1507 Chemin Gascon"
+                },
+                "BranchNumber": "38",
+                "Occupancy": 15,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Terrebonne",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    }
+                ]
+            },
+            {
+                "Oid": 31,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Montréal",
+                    "CityOid": 319,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.5194265,
+                    "Lng": -73.5870222,
+                    "Name": null,
+                    "PhoneNumber": "(514)905-5905",
+                    "PostalCode": "H2T 2S6",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "55 Ave Mont-Royal Ouest, 4e étage"
+                },
+                "BranchNumber": "39",
+                "Occupancy": 50,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Plateau Mont-Royal",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT19H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 46,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Montréal",
+                    "CityOid": 319,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.518094257667,
+                    "Lng": -73.701712489128,
+                    "Name": null,
+                    "PhoneNumber": "(514)666-9797",
+                    "PostalCode": "H4R 1J9",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "1920 Blv Marcel-Laurin"
+                },
+                "BranchNumber": "40",
+                "Occupancy": 26,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Bois-Franc",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H30M",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H30M",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    }
+                ]
+            },
+            {
+                "Oid": 47,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Montréal",
+                    "CityOid": 319,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.501845,
+                    "Lng": -73.571137,
+                    "Name": null,
+                    "PhoneNumber": "(514)666-9990",
+                    "PostalCode": "H3A 3J5",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "1500 Ave Mc Gill College, 5e étage"
+                },
+                "BranchNumber": "41",
+                "Occupancy": 32,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Place Montréal Trust",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT9H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT9H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 62,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Delson",
+                    "CityOid": 1202,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.387197586327,
+                    "Lng": -73.548585176468,
+                    "Name": null,
+                    "PhoneNumber": "(514)666-0909",
+                    "PostalCode": "J5B 0A1",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "66 Route 132, Suite 260"
+                },
+                "BranchNumber": "44",
+                "Occupancy": 50,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Delson",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 63,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Châteauguay",
+                    "CityOid": 469,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.365141205364,
+                    "Lng": -73.712325410451,
+                    "Name": null,
+                    "PhoneNumber": "(514)666-0668",
+                    "PostalCode": "J6J 3H5",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "47 Rue St-Jean Baptiste"
+                },
+                "BranchNumber": "45",
+                "Occupancy": 38,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Châteauguay",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 66,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Saint-Eustache",
+                    "CityOid": 730,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.575126146765,
+                    "Lng": -73.914231897731,
+                    "Name": null,
+                    "PhoneNumber": "(514)666-0696",
+                    "PostalCode": "J7P 4X5",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "565 Blv Arthur Sauvé, Local 102"
+                },
+                "BranchNumber": "46",
+                "Occupancy": 29,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "St-Eustache",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 68,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Saint-Hyacinthe",
+                    "CityOid": 572,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.639886086474,
+                    "Lng": -72.962162486369,
+                    "Name": null,
+                    "PhoneNumber": "(450)250-0999",
+                    "PostalCode": "J2S 8N9",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "3190 Ave Cusson"
+                },
+                "BranchNumber": "48",
+                "Occupancy": 20,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "St-Hyacinthe",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H30M",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    }
+                ]
+            },
+            {
+                "Oid": 20,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Gatineau",
+                    "CityOid": 240,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.478162048134,
+                    "Lng": -75.689873099327,
+                    "Name": null,
+                    "PhoneNumber": "(819)561-6555",
+                    "PostalCode": "J8T 3R6",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "920 Blv Maloney Ouest"
+                },
+                "BranchNumber": "52",
+                "Occupancy": 27,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Gatineau",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    }
+                ]
+            },
+            {
+                "Oid": 64,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Gatineau",
+                    "CityOid": 240,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 45.396562010152,
+                    "Lng": -75.833397566687,
+                    "Name": null,
+                    "PhoneNumber": "(819)332-2000",
+                    "PostalCode": "J9H 6H4",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "203 Chemin D'Aylmer"
+                },
+                "BranchNumber": "53",
+                "Occupancy": 42,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Aylmer",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    }
+                ]
+            },
+            {
+                "Oid": 25,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Québec",
+                    "CityOid": 342,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 46.837811024258,
+                    "Lng": -71.273326277733,
+                    "Name": null,
+                    "PhoneNumber": "(418)628-7524",
+                    "PostalCode": "G2J 1C8",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "5155 blv Des Gradins"
+                },
+                "BranchNumber": "61",
+                "Occupancy": 57,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Place Nautilus Plus",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT7H",
+                        "RegularBusinessHours": false
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    }
+                ]
+            },
+            {
+                "Oid": 38,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Québec",
+                    "CityOid": 342,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 46.7955821,
+                    "Lng": -71.2505653,
+                    "Name": null,
+                    "PhoneNumber": "(418)527-2577",
+                    "PostalCode": "G1S 4M6",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "840 Rue Ernest Gagnon"
+                },
+                "BranchNumber": "62",
+                "Occupancy": 15,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Samuel Holland",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H30M",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H30M",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H30M",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H30M",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H30M",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT9H",
+                        "RegularBusinessHours": false
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT9H",
+                        "RegularBusinessHours": false
+                    }
+                ]
+            },
+            {
+                "Oid": 67,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Lévis",
+                    "CityOid": 784,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 46.7293829,
+                    "Lng": -71.2721257,
+                    "Name": null,
+                    "PhoneNumber": "(418)380-8988",
+                    "PostalCode": "G6W 5M6",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "940 Chemin Du Sault, Local 32b"
+                },
+                "BranchNumber": "63",
+                "Occupancy": 20,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "St-Romuald",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 37,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Québec",
+                    "CityOid": 342,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 46.76441048303,
+                    "Lng": -71.309026479721,
+                    "Name": null,
+                    "PhoneNumber": "(418)650-9100",
+                    "PostalCode": "G1W 4S6",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "999 Avenue De Bourgogne, Bureau 203"
+                },
+                "BranchNumber": "66",
+                "Occupancy": 24,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Ste-Foy",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H30M",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H30M",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 26,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Lévis",
+                    "CityOid": 784,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 46.794033040974,
+                    "Lng": -71.178166866302,
+                    "Name": null,
+                    "PhoneNumber": "(418)838-1505",
+                    "PostalCode": "G6V 6W8",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "50 Route du Président-Kennedy"
+                },
+                "BranchNumber": "67",
+                "Occupancy": 16,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Lévis",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 8,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Québec",
+                    "CityOid": 342,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 46.872595051803,
+                    "Lng": -71.196258366108,
+                    "Name": null,
+                    "PhoneNumber": "(418)821-4733",
+                    "PostalCode": "G1E 6X1",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "500 Rue Cambronne"
+                },
+                "BranchNumber": "68",
+                "Occupancy": 14,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Beauport",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": false
+                    }
+                ]
+            },
+            {
+                "Oid": 44,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Québec",
+                    "CityOid": 342,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 46.811219414482,
+                    "Lng": -71.215276568787,
+                    "Name": null,
+                    "PhoneNumber": "(418)380-8989",
+                    "PostalCode": "G1R 4X5",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "880 Ave Honoré Mercier"
+                },
+                "BranchNumber": "69",
+                "Occupancy": 18,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Place Québec",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT22H",
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": "PT6H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT18H30M",
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": "PT17H",
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": "PT8H",
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 1,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Saint-Hubert",
+                    "CityOid": 3410,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 0,
+                    "Lng": 0,
+                    "Name": null,
+                    "PhoneNumber": "(514)666-5814",
+                    "PostalCode": "J3Y 8Y5",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "3550 1ère Rue"
+                },
+                "BranchNumber": "900",
+                "Occupancy": 0,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": "Maison Mère",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": null,
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": null,
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": null,
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": null,
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": null,
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": null,
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": null,
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    }
+                ]
+            },
+            {
+                "Oid": 48,
+                "Address": {
+                    "Oid": 0,
+                    "City": "Longueuil",
+                    "CityOid": 278,
+                    "Country": "Canada",
+                    "CountryOid": 1,
+                    "Lat": 0,
+                    "Lng": 0,
+                    "Name": null,
+                    "PhoneNumber": "",
+                    "PostalCode": "J3Y 8Y5",
+                    "Province": "Québec",
+                    "ProvinceOid": 1,
+                    "StreetAndNumber": "3550 1ère Rue"
+                },
+                "BranchNumber": "990",
+                "Occupancy": 0,
+                "OccupancyColor": "008000",
+                "OccupancyName": "Peu achalandé",
+                "Description": " Encadrement en ligne",
+                "BusinessHours": [
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": null,
+                        "DayOfWeek": 1,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": null,
+                        "DayOfWeek": 2,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": null,
+                        "DayOfWeek": 3,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": null,
+                        "DayOfWeek": 4,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": null,
+                        "DayOfWeek": 5,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": null,
+                        "DayOfWeek": 6,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    },
+                    {
+                        "ClosedAllDay": false,
+                        "ClosingHour": null,
+                        "DayOfWeek": 0,
+                        "HolidayName": null,
+                        "OpeningHour": null,
+                        "RegularBusinessHours": true
+                    }
+                ]
+            }
+        ]
+    }
+}

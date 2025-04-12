@@ -1,0 +1,967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70EEDF7E2DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 70EEDF5E2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		707B70B72DA9C238008DFA72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 707B70A12DA9C237008DFA72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707B70A82DA9C237008DFA72;
+			remoteInfo = NautilusCapacities;
+		};
+		707B70C12DA9C238008DFA72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 707B70A12DA9C237008DFA72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707B70A82DA9C237008DFA72;
+			remoteInfo = NautilusCapacities;
+		};
+		70EEDF6B2DA9CF0E006D1939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 707B70A12DA9C237008DFA72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70EEDF5D2DA9CF0C006D1939;
+			remoteInfo = "NautilusCapacitiesWatch Watch App";
+		};
+		70EEDF752DA9CF0E006D1939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 707B70A12DA9C237008DFA72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70EEDF5D2DA9CF0C006D1939;
+			remoteInfo = "NautilusCapacitiesWatch Watch App";
+		};
+		70EEDF7C2DA9CF0E006D1939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 707B70A12DA9C237008DFA72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70EEDF5D2DA9CF0C006D1939;
+			remoteInfo = "NautilusCapacitiesWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70EEDF7F2DA9CF0E006D1939 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				70EEDF7E2DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		707B70A92DA9C237008DFA72 /* NautilusCapacities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NautilusCapacities.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		707B70B62DA9C238008DFA72 /* NautilusCapacitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NautilusCapacitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		707B70C02DA9C238008DFA72 /* NautilusCapacitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NautilusCapacitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EEDF5E2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NautilusCapacitiesWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EEDF6A2DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NautilusCapacitiesWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EEDF742DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NautilusCapacitiesWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		70EEDF8E2DA9D01F006D1939 /* Exceptions for "NautilusCapacities" folder in "NautilusCapacitiesWatch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/Address.swift,
+				Models/Branch.swift,
+				Models/BusinessHour.swift,
+				Models/FavoritesManager.swift,
+				Networking/APIClient.swift,
+				ViewModels/BranchesViewModel.swift,
+			);
+			target = 70EEDF5D2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		707B70AB2DA9C237008DFA72 /* NautilusCapacities */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				70EEDF8E2DA9D01F006D1939 /* Exceptions for "NautilusCapacities" folder in "NautilusCapacitiesWatch Watch App" target */,
+			);
+			path = NautilusCapacities;
+			sourceTree = "<group>";
+		};
+		707B70B92DA9C238008DFA72 /* NautilusCapacitiesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NautilusCapacitiesTests;
+			sourceTree = "<group>";
+		};
+		707B70C32DA9C238008DFA72 /* NautilusCapacitiesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NautilusCapacitiesUITests;
+			sourceTree = "<group>";
+		};
+		70EEDF5F2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "NautilusCapacitiesWatch Watch App";
+			sourceTree = "<group>";
+		};
+		70EEDF6D2DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "NautilusCapacitiesWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		70EEDF772DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "NautilusCapacitiesWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		707B70A62DA9C237008DFA72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707B70B32DA9C238008DFA72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707B70BD2DA9C238008DFA72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EEDF5B2DA9CF0C006D1939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EEDF672DA9CF0E006D1939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EEDF712DA9CF0E006D1939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		707B70A02DA9C237008DFA72 = {
+			isa = PBXGroup;
+			children = (
+				707B70AB2DA9C237008DFA72 /* NautilusCapacities */,
+				707B70B92DA9C238008DFA72 /* NautilusCapacitiesTests */,
+				707B70C32DA9C238008DFA72 /* NautilusCapacitiesUITests */,
+				70EEDF5F2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App */,
+				70EEDF6D2DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppTests */,
+				70EEDF772DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppUITests */,
+				707B70AA2DA9C237008DFA72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		707B70AA2DA9C237008DFA72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				707B70A92DA9C237008DFA72 /* NautilusCapacities.app */,
+				707B70B62DA9C238008DFA72 /* NautilusCapacitiesTests.xctest */,
+				707B70C02DA9C238008DFA72 /* NautilusCapacitiesUITests.xctest */,
+				70EEDF5E2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App.app */,
+				70EEDF6A2DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppTests.xctest */,
+				70EEDF742DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		707B70A82DA9C237008DFA72 /* NautilusCapacities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707B70CA2DA9C238008DFA72 /* Build configuration list for PBXNativeTarget "NautilusCapacities" */;
+			buildPhases = (
+				707B70A52DA9C237008DFA72 /* Sources */,
+				707B70A62DA9C237008DFA72 /* Frameworks */,
+				70EEDF7F2DA9CF0E006D1939 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70EEDF7D2DA9CF0E006D1939 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				707B70AB2DA9C237008DFA72 /* NautilusCapacities */,
+			);
+			name = NautilusCapacities;
+			packageProductDependencies = (
+			);
+			productName = NautilusCapacities;
+			productReference = 707B70A92DA9C237008DFA72 /* NautilusCapacities.app */;
+			productType = "com.apple.product-type.application";
+		};
+		707B70B52DA9C238008DFA72 /* NautilusCapacitiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707B70CD2DA9C238008DFA72 /* Build configuration list for PBXNativeTarget "NautilusCapacitiesTests" */;
+			buildPhases = (
+				707B70B22DA9C238008DFA72 /* Sources */,
+				707B70B32DA9C238008DFA72 /* Frameworks */,
+				707B70B42DA9C238008DFA72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707B70B82DA9C238008DFA72 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				707B70B92DA9C238008DFA72 /* NautilusCapacitiesTests */,
+			);
+			name = NautilusCapacitiesTests;
+			packageProductDependencies = (
+			);
+			productName = NautilusCapacitiesTests;
+			productReference = 707B70B62DA9C238008DFA72 /* NautilusCapacitiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		707B70BF2DA9C238008DFA72 /* NautilusCapacitiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707B70D02DA9C238008DFA72 /* Build configuration list for PBXNativeTarget "NautilusCapacitiesUITests" */;
+			buildPhases = (
+				707B70BC2DA9C238008DFA72 /* Sources */,
+				707B70BD2DA9C238008DFA72 /* Frameworks */,
+				707B70BE2DA9C238008DFA72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707B70C22DA9C238008DFA72 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				707B70C32DA9C238008DFA72 /* NautilusCapacitiesUITests */,
+			);
+			name = NautilusCapacitiesUITests;
+			packageProductDependencies = (
+			);
+			productName = NautilusCapacitiesUITests;
+			productReference = 707B70C02DA9C238008DFA72 /* NautilusCapacitiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		70EEDF5D2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70EEDF862DA9CF0E006D1939 /* Build configuration list for PBXNativeTarget "NautilusCapacitiesWatch Watch App" */;
+			buildPhases = (
+				70EEDF5A2DA9CF0C006D1939 /* Sources */,
+				70EEDF5B2DA9CF0C006D1939 /* Frameworks */,
+				70EEDF5C2DA9CF0C006D1939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				70EEDF5F2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App */,
+			);
+			name = "NautilusCapacitiesWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "NautilusCapacitiesWatch Watch App";
+			productReference = 70EEDF5E2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70EEDF692DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70EEDF872DA9CF0E006D1939 /* Build configuration list for PBXNativeTarget "NautilusCapacitiesWatch Watch AppTests" */;
+			buildPhases = (
+				70EEDF662DA9CF0E006D1939 /* Sources */,
+				70EEDF672DA9CF0E006D1939 /* Frameworks */,
+				70EEDF682DA9CF0E006D1939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70EEDF6C2DA9CF0E006D1939 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				70EEDF6D2DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppTests */,
+			);
+			name = "NautilusCapacitiesWatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "NautilusCapacitiesWatch Watch AppTests";
+			productReference = 70EEDF6A2DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70EEDF732DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70EEDF882DA9CF0E006D1939 /* Build configuration list for PBXNativeTarget "NautilusCapacitiesWatch Watch AppUITests" */;
+			buildPhases = (
+				70EEDF702DA9CF0E006D1939 /* Sources */,
+				70EEDF712DA9CF0E006D1939 /* Frameworks */,
+				70EEDF722DA9CF0E006D1939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70EEDF762DA9CF0E006D1939 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				70EEDF772DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppUITests */,
+			);
+			name = "NautilusCapacitiesWatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "NautilusCapacitiesWatch Watch AppUITests";
+			productReference = 70EEDF742DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		707B70A12DA9C237008DFA72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					707B70A82DA9C237008DFA72 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					707B70B52DA9C238008DFA72 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 707B70A82DA9C237008DFA72;
+					};
+					707B70BF2DA9C238008DFA72 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 707B70A82DA9C237008DFA72;
+					};
+					70EEDF5D2DA9CF0C006D1939 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					70EEDF692DA9CF0E006D1939 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 70EEDF5D2DA9CF0C006D1939;
+					};
+					70EEDF732DA9CF0E006D1939 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 70EEDF5D2DA9CF0C006D1939;
+					};
+				};
+			};
+			buildConfigurationList = 707B70A42DA9C237008DFA72 /* Build configuration list for PBXProject "NautilusCapacities" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 707B70A02DA9C237008DFA72;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 707B70AA2DA9C237008DFA72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				707B70A82DA9C237008DFA72 /* NautilusCapacities */,
+				707B70B52DA9C238008DFA72 /* NautilusCapacitiesTests */,
+				707B70BF2DA9C238008DFA72 /* NautilusCapacitiesUITests */,
+				70EEDF5D2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App */,
+				70EEDF692DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppTests */,
+				70EEDF732DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		707B70B42DA9C238008DFA72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707B70BE2DA9C238008DFA72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EEDF5C2DA9CF0C006D1939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EEDF682DA9CF0E006D1939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EEDF722DA9CF0E006D1939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		707B70A52DA9C237008DFA72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707B70B22DA9C238008DFA72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707B70BC2DA9C238008DFA72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EEDF5A2DA9CF0C006D1939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EEDF662DA9CF0E006D1939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EEDF702DA9CF0E006D1939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		707B70B82DA9C238008DFA72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 707B70A82DA9C237008DFA72 /* NautilusCapacities */;
+			targetProxy = 707B70B72DA9C238008DFA72 /* PBXContainerItemProxy */;
+		};
+		707B70C22DA9C238008DFA72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 707B70A82DA9C237008DFA72 /* NautilusCapacities */;
+			targetProxy = 707B70C12DA9C238008DFA72 /* PBXContainerItemProxy */;
+		};
+		70EEDF6C2DA9CF0E006D1939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70EEDF5D2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App */;
+			targetProxy = 70EEDF6B2DA9CF0E006D1939 /* PBXContainerItemProxy */;
+		};
+		70EEDF762DA9CF0E006D1939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70EEDF5D2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App */;
+			targetProxy = 70EEDF752DA9CF0E006D1939 /* PBXContainerItemProxy */;
+		};
+		70EEDF7D2DA9CF0E006D1939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70EEDF5D2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App */;
+			targetProxy = 70EEDF7C2DA9CF0E006D1939 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		707B70C82DA9C238008DFA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4326L6N74Q;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		707B70C92DA9C238008DFA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4326L6N74Q;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		707B70CB2DA9C238008DFA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4326L6N74Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NautilusCapacities/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexianunez.NautilusCapacities;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		707B70CC2DA9C238008DFA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4326L6N74Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NautilusCapacities/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexianunez.NautilusCapacities;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		707B70CE2DA9C238008DFA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4326L6N74Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexianunez.NautilusCapacitiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NautilusCapacities.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NautilusCapacities";
+			};
+			name = Debug;
+		};
+		707B70CF2DA9C238008DFA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4326L6N74Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexianunez.NautilusCapacitiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NautilusCapacities.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NautilusCapacities";
+			};
+			name = Release;
+		};
+		707B70D12DA9C238008DFA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4326L6N74Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexianunez.NautilusCapacitiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NautilusCapacities;
+			};
+			name = Debug;
+		};
+		707B70D22DA9C238008DFA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4326L6N74Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexianunez.NautilusCapacitiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NautilusCapacities;
+			};
+			name = Release;
+		};
+		70EEDF802DA9CF0E006D1939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4326L6N74Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NautilusCapacitiesWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.alexianunez.NautilusCapacities;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexianunez.NautilusCapacities.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		70EEDF812DA9CF0E006D1939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4326L6N74Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NautilusCapacitiesWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.alexianunez.NautilusCapacities;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexianunez.NautilusCapacities.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		70EEDF822DA9CF0E006D1939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4326L6N74Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexianunez.NautilusCapacitiesWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NautilusCapacitiesWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NautilusCapacitiesWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		70EEDF832DA9CF0E006D1939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4326L6N74Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexianunez.NautilusCapacitiesWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NautilusCapacitiesWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NautilusCapacitiesWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		70EEDF842DA9CF0E006D1939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4326L6N74Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexianunez.NautilusCapacitiesWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "NautilusCapacitiesWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		70EEDF852DA9CF0E006D1939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4326L6N74Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexianunez.NautilusCapacitiesWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "NautilusCapacitiesWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		707B70A42DA9C237008DFA72 /* Build configuration list for PBXProject "NautilusCapacities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707B70C82DA9C238008DFA72 /* Debug */,
+				707B70C92DA9C238008DFA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707B70CA2DA9C238008DFA72 /* Build configuration list for PBXNativeTarget "NautilusCapacities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707B70CB2DA9C238008DFA72 /* Debug */,
+				707B70CC2DA9C238008DFA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707B70CD2DA9C238008DFA72 /* Build configuration list for PBXNativeTarget "NautilusCapacitiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707B70CE2DA9C238008DFA72 /* Debug */,
+				707B70CF2DA9C238008DFA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707B70D02DA9C238008DFA72 /* Build configuration list for PBXNativeTarget "NautilusCapacitiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707B70D12DA9C238008DFA72 /* Debug */,
+				707B70D22DA9C238008DFA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70EEDF862DA9CF0E006D1939 /* Build configuration list for PBXNativeTarget "NautilusCapacitiesWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EEDF802DA9CF0E006D1939 /* Debug */,
+				70EEDF812DA9CF0E006D1939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70EEDF872DA9CF0E006D1939 /* Build configuration list for PBXNativeTarget "NautilusCapacitiesWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EEDF822DA9CF0E006D1939 /* Debug */,
+				70EEDF832DA9CF0E006D1939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70EEDF882DA9CF0E006D1939 /* Build configuration list for PBXNativeTarget "NautilusCapacitiesWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EEDF842DA9CF0E006D1939 /* Debug */,
+				70EEDF852DA9CF0E006D1939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 707B70A12DA9C237008DFA72 /* Project object */;
+}
