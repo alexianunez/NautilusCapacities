@@ -1,4 +1,5 @@
 import SwiftUI
+import Entities
 
 struct BranchDetailView: View {
     let branch: Branch

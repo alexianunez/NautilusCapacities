@@ -1,5 +1,6 @@
 import SwiftUI
 import MapKit
+import Entities
 
 struct BranchDetailView: View {
     let branch: Branch

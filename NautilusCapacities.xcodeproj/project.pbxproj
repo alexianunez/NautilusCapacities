@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7013BCC62DAAD2090055ED96 /* Entities in Frameworks */ = {isa = PBXBuildFile; productRef = 7013BCC52DAAD2090055ED96 /* Entities */; };
+		7090A2DA2DAAD2F500950EC1 /* Entities in Frameworks */ = {isa = PBXBuildFile; productRef = 7090A2D92DAAD2F500950EC1 /* Entities */; };
 		70D9C6982DAA946C0091D50D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D9C6972DAA946C0091D50D /* WidgetKit.framework */; };
 		70D9C69A2DAA946C0091D50D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D9C6992DAA946C0091D50D /* SwiftUI.framework */; };
 		70D9C6A52DAA946D0091D50D /* WidgetComplicationExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 70D9C6952DAA946C0091D50D /* WidgetComplicationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -107,9 +109,6 @@
 		70EEDF8E2DA9D01F006D1939 /* Exceptions for "NautilusCapacities" folder in "NautilusCapacitiesWatch Watch App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Models/Address.swift,
-				Models/Branch.swift,
-				Models/BusinessHour.swift,
 				Models/FavoritesManager.swift,
 				Networking/APIClient.swift,
 				ViewModels/BranchesViewModel.swift,
@@ -167,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7013BCC62DAAD2090055ED96 /* Entities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +197,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7090A2DA2DAAD2F500950EC1 /* Entities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +278,7 @@
 			);
 			name = NautilusCapacities;
 			packageProductDependencies = (
+				7013BCC52DAAD2090055ED96 /* Entities */,
 			);
 			productName = NautilusCapacities;
 			productReference = 707B70A92DA9C237008DFA72 /* NautilusCapacities.app */;
@@ -369,6 +371,7 @@
 			);
 			name = "NautilusCapacitiesWatch Watch App";
 			packageProductDependencies = (
+				7090A2D92DAAD2F500950EC1 /* Entities */,
 			);
 			productName = "NautilusCapacitiesWatch Watch App";
 			productReference = 70EEDF5E2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App.app */;
@@ -466,6 +469,9 @@
 			);
 			mainGroup = 707B70A02DA9C237008DFA72;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7013BCC42DAAD2090055ED96 /* XCLocalSwiftPackageReference "Entities" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 707B70AA2DA9C237008DFA72 /* Products */;
 			projectDirPath = "";
@@ -1140,6 +1146,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		7013BCC42DAAD2090055ED96 /* XCLocalSwiftPackageReference "Entities" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Entities;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7013BCC52DAAD2090055ED96 /* Entities */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Entities;
+		};
+		7090A2D92DAAD2F500950EC1 /* Entities */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7013BCC42DAAD2090055ED96 /* XCLocalSwiftPackageReference "Entities" */;
+			productName = Entities;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 707B70A12DA9C237008DFA72 /* Project object */;
 }

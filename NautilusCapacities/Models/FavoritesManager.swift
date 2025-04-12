@@ -1,4 +1,5 @@
 import Foundation
+import Entities
 
 class FavoritesManager {
     static let shared = FavoritesManager()
