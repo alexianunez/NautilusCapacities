@@ -38,6 +38,8 @@ struct ContentView: View {
         }
         .task {
             viewModel.fetchBranches()
+        }.refreshable {
+            viewModel.fetchBranches()
         }
     }
 }
