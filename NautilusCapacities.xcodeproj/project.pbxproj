@@ -87,6 +87,7 @@
 		707B70A92DA9C237008DFA72 /* NautilusCapacities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NautilusCapacities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		707B70B62DA9C238008DFA72 /* NautilusCapacitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NautilusCapacitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		707B70C02DA9C238008DFA72 /* NautilusCapacitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NautilusCapacitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D1FFD42DAACF960010186D /* Entities */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Entities; sourceTree = "<group>"; };
 		70D9C6952DAA946C0091D50D /* WidgetComplicationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetComplicationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D9C6972DAA946C0091D50D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		70D9C6992DAA946C0091D50D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -219,6 +220,7 @@
 		707B70A02DA9C237008DFA72 = {
 			isa = PBXGroup;
 			children = (
+				70D1FFD42DAACF960010186D /* Entities */,
 				707B70AB2DA9C237008DFA72 /* NautilusCapacities */,
 				707B70B92DA9C238008DFA72 /* NautilusCapacitiesTests */,
 				707B70C32DA9C238008DFA72 /* NautilusCapacitiesUITests */,
