@@ -3,7 +3,7 @@
 
 import Foundation
 
-public struct Address: Codable {
+public struct Address: Codable, Sendable {
     public let id: Int
     public let city: String
     public let cityId: Int
@@ -51,7 +51,7 @@ public struct Address: Codable {
     }
 }
 
-public struct BusinessHour: Codable {
+public struct BusinessHour: Codable, Sendable {
     public let isClosedAllDay: Bool
     public let closingHour: String?
     public let dayOfWeek: Int
@@ -69,12 +69,12 @@ public struct BusinessHour: Codable {
     }
 }
 
-public struct BranchResponse: Codable {
+public struct BranchResponse: Codable, Sendable {
     public let success: Bool
     public let data: BranchData
 }
 
-public struct BranchData: Codable {
+public struct BranchData: Codable, Sendable {
     public let branches: [Branch]
     
     enum CodingKeys: String, CodingKey {
@@ -82,7 +82,7 @@ public struct BranchData: Codable {
     }
 }
 
-public struct Branch: Codable, Identifiable {
+public struct Branch: Codable, Identifiable, Sendable {
     public let id: Int
     public let address: Address
     public let branchNumber: String

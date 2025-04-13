@@ -24,6 +24,18 @@ class FavoritesManager {
         return branch.id == favoriteBranchId
     }
     
+    func isFavorite(_ branchId: Int) -> Bool {
+        return branchId == favoriteBranchId
+    }
+    
+    func toggleFavorite(_ branchId: Int) {
+        if isFavorite(branchId) {
+            favoriteBranchId = nil
+        } else {
+            favoriteBranchId = branchId
+        }
+    }
+    
     func toggleFavorite(_ branch: Branch) {
         if isFavorite(branch) {
             favoriteBranchId = nil

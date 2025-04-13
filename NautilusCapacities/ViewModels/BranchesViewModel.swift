@@ -4,6 +4,7 @@ import Entities
 @MainActor
 class BranchesViewModel: ObservableObject {
     @Published private(set) var branches: [Branch] = []
+    @Published private(set) var branchViewModels: [BranchViewModel] = []
     @Published private(set) var error: Error?
     @Published private(set) var isLoading = false
     

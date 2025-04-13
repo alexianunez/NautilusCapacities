@@ -115,6 +115,7 @@
 				Models/FavoritesManager.swift,
 				Networking/APIClient.swift,
 				ViewModels/BranchesViewModel.swift,
+				ViewModels/ViewModels.swift,
 			);
 			target = 70EEDF5D2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App */;
 		};
