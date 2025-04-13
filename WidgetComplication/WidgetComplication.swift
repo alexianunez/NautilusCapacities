@@ -33,7 +33,7 @@ struct Provider: AppIntentTimelineProvider {
 
     func recommendations() -> [AppIntentRecommendation<ConfigurationAppIntent>] {
         // Create an array with all the preconfigured widgets to show.
-        [AppIntentRecommendation(intent: ConfigurationAppIntent(), description: "Example Widget")]
+        [AppIntentRecommendation(intent: ConfigurationAppIntent(), description: "Favorite Gym Capacity")]
     }
 
 //    func relevances() async -> WidgetRelevances<ConfigurationAppIntent> {
@@ -51,13 +51,40 @@ struct WidgetComplicationEntryView : View {
 
     var body: some View {
         VStack {
-            HStack {
-                Text("Time:")
-                Text(entry.date, style: .time)
-            }
-        
-            Text("Favorite Emoji:")
-            Text(entry.configuration.favoriteEmoji)
+            CircularProgressView(
+                progress: Double(entry.configuration.capacity) / 100.0
+            )
+        }
+    }
+}
+
+struct CircularProgressView: View {
+    let progress: Double
+    
+    var body: some View {
+        ZStack {
+            Circle()
+                .stroke(Color.gray.opacity(0.2), lineWidth: 8)
+            
+            Circle()
+                .trim(from: 0, to: progress)
+                .stroke(progressColor, style: StrokeStyle(lineWidth: 8, lineCap: .round))
+                .rotationEffect(.degrees(-90))
+            
+            Text("\(Int(progress * 100))%")
+                .font(.system(.subheadline, design: .rounded))
+                .bold()
+        }
+    }
+    
+    private var progressColor: Color {
+        switch progress {
+        case 0..<0.5:
+            return .green
+        case 0.5..<0.8:
+            return .yellow
+        default:
+            return .red
         }
     }
 }
@@ -75,15 +102,15 @@ struct WidgetComplication: Widget {
 }
 
 extension ConfigurationAppIntent {
-    fileprivate static var smiley: ConfigurationAppIntent {
+    fileprivate static var fifty: ConfigurationAppIntent {
         let intent = ConfigurationAppIntent()
-        intent.favoriteEmoji = "😀"
+        intent.capacity = 50
         return intent
     }
     
-    fileprivate static var starEyes: ConfigurationAppIntent {
+    fileprivate static var seventyFive: ConfigurationAppIntent {
         let intent = ConfigurationAppIntent()
-        intent.favoriteEmoji = "🤩"
+        intent.capacity = 75
         return intent
     }
 }
@@ -91,6 +118,6 @@ extension ConfigurationAppIntent {
 #Preview(as: .accessoryRectangular) {
     WidgetComplication()
 } timeline: {
-    SimpleEntry(date: .now, configuration: .smiley)
-    SimpleEntry(date: .now, configuration: .starEyes)
-}    
+    SimpleEntry(date: .now, configuration: .fifty)
+    SimpleEntry(date: .now, configuration: .seventyFive)
+}
