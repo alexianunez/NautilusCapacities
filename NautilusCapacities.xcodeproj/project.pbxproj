@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7013BCC62DAAD2090055ED96 /* Entities in Frameworks */ = {isa = PBXBuildFile; productRef = 7013BCC52DAAD2090055ED96 /* Entities */; };
+		706CEE852DAC095F002A2BA8 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 706CEE842DAC095F002A2BA8 /* Networking */; };
+		706CEE872DAC0968002A2BA8 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 706CEE862DAC0968002A2BA8 /* Networking */; };
 		7090A2DA2DAAD2F500950EC1 /* Entities in Frameworks */ = {isa = PBXBuildFile; productRef = 7090A2D92DAAD2F500950EC1 /* Entities */; };
 		70D9C6982DAA946C0091D50D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D9C6972DAA946C0091D50D /* WidgetKit.framework */; };
 		70D9C69A2DAA946C0091D50D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D9C6992DAA946C0091D50D /* SwiftUI.framework */; };
@@ -86,6 +88,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		706CEE832DAC0948002A2BA8 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 		707B70A92DA9C237008DFA72 /* NautilusCapacities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NautilusCapacities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		707B70B62DA9C238008DFA72 /* NautilusCapacitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NautilusCapacitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		707B70C02DA9C238008DFA72 /* NautilusCapacitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NautilusCapacitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				706CEE852DAC095F002A2BA8 /* Networking in Frameworks */,
 				7013BCC62DAAD2090055ED96 /* Entities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +201,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				706CEE872DAC0968002A2BA8 /* Networking in Frameworks */,
 				7090A2DA2DAAD2F500950EC1 /* Entities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +226,7 @@
 		707B70A02DA9C237008DFA72 = {
 			isa = PBXGroup;
 			children = (
+				706CEE832DAC0948002A2BA8 /* Networking */,
 				70D1FFD42DAACF960010186D /* Entities */,
 				707B70AB2DA9C237008DFA72 /* NautilusCapacities */,
 				707B70B92DA9C238008DFA72 /* NautilusCapacitiesTests */,
@@ -279,6 +285,7 @@
 			name = NautilusCapacities;
 			packageProductDependencies = (
 				7013BCC52DAAD2090055ED96 /* Entities */,
+				706CEE842DAC095F002A2BA8 /* Networking */,
 			);
 			productName = NautilusCapacities;
 			productReference = 707B70A92DA9C237008DFA72 /* NautilusCapacities.app */;
@@ -372,6 +379,7 @@
 			name = "NautilusCapacitiesWatch Watch App";
 			packageProductDependencies = (
 				7090A2D92DAAD2F500950EC1 /* Entities */,
+				706CEE862DAC0968002A2BA8 /* Networking */,
 			);
 			productName = "NautilusCapacitiesWatch Watch App";
 			productReference = 70EEDF5E2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App.app */;
@@ -1158,6 +1166,14 @@
 		7013BCC52DAAD2090055ED96 /* Entities */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Entities;
+		};
+		706CEE842DAC095F002A2BA8 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+		706CEE862DAC0968002A2BA8 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
 		};
 		7090A2D92DAAD2F500950EC1 /* Entities */ = {
 			isa = XCSwiftPackageProductDependency;
