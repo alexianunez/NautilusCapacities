@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7013BCC62DAAD2090055ED96 /* Entities in Frameworks */ = {isa = PBXBuildFile; productRef = 7013BCC52DAAD2090055ED96 /* Entities */; };
-		706CEE852DAC095F002A2BA8 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 706CEE842DAC095F002A2BA8 /* Networking */; };
-		706CEE872DAC0968002A2BA8 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 706CEE862DAC0968002A2BA8 /* Networking */; };
-		7090A2DA2DAAD2F500950EC1 /* Entities in Frameworks */ = {isa = PBXBuildFile; productRef = 7090A2D92DAAD2F500950EC1 /* Entities */; };
+		70B6F1342DAC1E6E00066A2C /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 706CEE862DAC0968002A2BA8 /* Networking */; };
+		70B6F1352DAC1E6E00066A2C /* Entities in Frameworks */ = {isa = PBXBuildFile; productRef = 7013BCC52DAAD2090055ED96 /* Entities */; };
+		70B6F1362DAC1E6E00066A2C /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 706CEE842DAC095F002A2BA8 /* Networking */; };
+		70B6F16B2DAC1E7800066A2C /* Entities in Frameworks */ = {isa = PBXBuildFile; productRef = 70B6F16A2DAC1E7800066A2C /* Entities */; };
 		70D9C6982DAA946C0091D50D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D9C6972DAA946C0091D50D /* WidgetKit.framework */; };
 		70D9C69A2DAA946C0091D50D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D9C6992DAA946C0091D50D /* SwiftUI.framework */; };
 		70D9C6A52DAA946D0091D50D /* WidgetComplicationExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 70D9C6952DAA946C0091D50D /* WidgetComplicationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -169,8 +169,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				706CEE852DAC095F002A2BA8 /* Networking in Frameworks */,
-				7013BCC62DAAD2090055ED96 /* Entities in Frameworks */,
+				70B6F1362DAC1E6E00066A2C /* Networking in Frameworks */,
+				70B6F1352DAC1E6E00066A2C /* Entities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,8 +201,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				706CEE872DAC0968002A2BA8 /* Networking in Frameworks */,
-				7090A2DA2DAAD2F500950EC1 /* Entities in Frameworks */,
+				70B6F1342DAC1E6E00066A2C /* Networking in Frameworks */,
+				70B6F16B2DAC1E7800066A2C /* Entities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,8 +378,8 @@
 			);
 			name = "NautilusCapacitiesWatch Watch App";
 			packageProductDependencies = (
-				7090A2D92DAAD2F500950EC1 /* Entities */,
 				706CEE862DAC0968002A2BA8 /* Networking */,
+				70B6F16A2DAC1E7800066A2C /* Entities */,
 			);
 			productName = "NautilusCapacitiesWatch Watch App";
 			productReference = 70EEDF5E2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App.app */;
@@ -478,7 +478,6 @@
 			mainGroup = 707B70A02DA9C237008DFA72;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				7013BCC42DAAD2090055ED96 /* XCLocalSwiftPackageReference "Entities" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 707B70AA2DA9C237008DFA72 /* Products */;
@@ -1155,13 +1154,6 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		7013BCC42DAAD2090055ED96 /* XCLocalSwiftPackageReference "Entities" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = Entities;
-		};
-/* End XCLocalSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
 		7013BCC52DAAD2090055ED96 /* Entities */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1175,9 +1167,8 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = Networking;
 		};
-		7090A2D92DAAD2F500950EC1 /* Entities */ = {
+		70B6F16A2DAC1E7800066A2C /* Entities */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7013BCC42DAAD2090055ED96 /* XCLocalSwiftPackageReference "Entities" */;
 			productName = Entities;
 		};
 /* End XCSwiftPackageProductDependency section */
