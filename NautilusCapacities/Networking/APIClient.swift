@@ -1,5 +1,4 @@
 import Foundation
-import Entities
 
 enum APIError: Error {
     case invalidURL

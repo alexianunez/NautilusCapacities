@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		70B6F1342DAC1E6E00066A2C /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 706CEE862DAC0968002A2BA8 /* Networking */; };
-		70B6F1352DAC1E6E00066A2C /* Entities in Frameworks */ = {isa = PBXBuildFile; productRef = 7013BCC52DAAD2090055ED96 /* Entities */; };
-		70B6F1362DAC1E6E00066A2C /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 706CEE842DAC095F002A2BA8 /* Networking */; };
-		70B6F16B2DAC1E7800066A2C /* Entities in Frameworks */ = {isa = PBXBuildFile; productRef = 70B6F16A2DAC1E7800066A2C /* Entities */; };
 		70D9C6982DAA946C0091D50D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D9C6972DAA946C0091D50D /* WidgetKit.framework */; };
 		70D9C69A2DAA946C0091D50D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D9C6992DAA946C0091D50D /* SwiftUI.framework */; };
 		70D9C6A52DAA946D0091D50D /* WidgetComplicationExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 70D9C6952DAA946C0091D50D /* WidgetComplicationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -88,11 +84,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		706CEE832DAC0948002A2BA8 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 		707B70A92DA9C237008DFA72 /* NautilusCapacities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NautilusCapacities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		707B70B62DA9C238008DFA72 /* NautilusCapacitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NautilusCapacitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		707B70C02DA9C238008DFA72 /* NautilusCapacitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NautilusCapacitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		70D1FFD42DAACF960010186D /* Entities */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Entities; sourceTree = "<group>"; };
 		70D9C6952DAA946C0091D50D /* WidgetComplicationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetComplicationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D9C6972DAA946C0091D50D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		70D9C6992DAA946C0091D50D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -115,6 +109,7 @@
 				Models/FavoritesManager.swift,
 				Networking/APIClient.swift,
 				ViewModels/BranchesViewModel.swift,
+				ViewModels/Entities.swift,
 				ViewModels/ViewModels.swift,
 			);
 			target = 70EEDF5D2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App */;
@@ -170,8 +165,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70B6F1362DAC1E6E00066A2C /* Networking in Frameworks */,
-				70B6F1352DAC1E6E00066A2C /* Entities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,8 +195,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70B6F1342DAC1E6E00066A2C /* Networking in Frameworks */,
-				70B6F16B2DAC1E7800066A2C /* Entities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,8 +218,6 @@
 		707B70A02DA9C237008DFA72 = {
 			isa = PBXGroup;
 			children = (
-				706CEE832DAC0948002A2BA8 /* Networking */,
-				70D1FFD42DAACF960010186D /* Entities */,
 				707B70AB2DA9C237008DFA72 /* NautilusCapacities */,
 				707B70B92DA9C238008DFA72 /* NautilusCapacitiesTests */,
 				707B70C32DA9C238008DFA72 /* NautilusCapacitiesUITests */,
@@ -287,6 +276,8 @@
 			packageProductDependencies = (
 				7013BCC52DAAD2090055ED96 /* Entities */,
 				706CEE842DAC095F002A2BA8 /* Networking */,
+				707DAD572DAF016200E66545 /* Entities */,
+				707DAD5A2DAF016C00E66545 /* Networking */,
 			);
 			productName = NautilusCapacities;
 			productReference = 707B70A92DA9C237008DFA72 /* NautilusCapacities.app */;
@@ -381,6 +372,7 @@
 			packageProductDependencies = (
 				706CEE862DAC0968002A2BA8 /* Networking */,
 				70B6F16A2DAC1E7800066A2C /* Entities */,
+				7078FBDA2DAF02AA003DB9D8 /* Entities */,
 			);
 			productName = "NautilusCapacitiesWatch Watch App";
 			productReference = 70EEDF5E2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App.app */;
@@ -1165,6 +1157,18 @@
 			productName = Networking;
 		};
 		706CEE862DAC0968002A2BA8 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+		7078FBDA2DAF02AA003DB9D8 /* Entities */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Entities;
+		};
+		707DAD572DAF016200E66545 /* Entities */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Entities;
+		};
+		707DAD5A2DAF016C00E66545 /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Networking;
 		};

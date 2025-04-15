@@ -1,5 +1,4 @@
 import Foundation
-import Entities
 
 @MainActor
 class BranchesViewModel: ObservableObject {

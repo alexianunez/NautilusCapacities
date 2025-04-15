@@ -1,5 +1,4 @@
 import SwiftUI
-import Entities
 
 struct ContentView: View {
     @StateObject private var viewModel = BranchesViewModel()

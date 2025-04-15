@@ -5,8 +5,6 @@
 //  Created by Alexia Nunez on 4/13/25.
 //
 
-import Entities
-
 struct BranchViewModel: Sendable {
     let id: Int
     let address: AddressViewModel
