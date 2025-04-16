@@ -12,11 +12,11 @@ struct Provider: AppIntentTimelineProvider {
     private let apiClient = APIClient.shared
     
     func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date(), configuration: ConfigurationAppIntent(), occupancy: 25)
+        return SimpleEntry(date: Date(), configuration: ConfigurationAppIntent(), occupancy: 50)
     }
 
     func snapshot(for configuration: ConfigurationAppIntent, in context: Context) async -> SimpleEntry {
-        SimpleEntry(date: Date(), configuration: configuration, occupancy: 25)
+        SimpleEntry(date: Date(), configuration: configuration, occupancy: 50)
     }
     
     func timeline(for configuration: ConfigurationAppIntent, in context: Context) async -> Timeline<SimpleEntry> {
@@ -57,7 +57,7 @@ struct Provider: AppIntentTimelineProvider {
 struct SimpleEntry: TimelineEntry {
     let date: Date
     let configuration: ConfigurationAppIntent
-    let occupancy: Int
+    var occupancy: Int = 50
 }
 
 struct WidgetComplicationEntryView : View {

@@ -34,7 +34,19 @@ public struct Address: Codable, Sendable {
         case streetAndNumber = "StreetAndNumber"
     }
     
-    public init(id: Int, city: String, cityId: Int, country: String, countryId: Int, latitude: Double, longitude: Double, name: String?, phoneNumber: String, postalCode: String, province: String, provinceId: Int, streetAndNumber: String) {
+    public init(id: Int = 0,
+                city: String = "",
+                cityId: Int = 0,
+                country: String = "",
+                countryId: Int = 0,
+                latitude: Double = 0.0,
+                longitude: Double = 0.0,
+                name: String? = nil,
+                phoneNumber: String = "",
+                postalCode: String = "",
+                province: String = "",
+                provinceId: Int = 0,
+                streetAndNumber: String = "") {
         self.id = id
         self.city = city
         self.cityId = cityId
@@ -66,6 +78,20 @@ public struct BusinessHour: Codable, Sendable {
         case holidayName = "HolidayName"
         case openingHour = "OpeningHour"
         case isRegularBusinessHours = "RegularBusinessHours"
+    }
+    
+    init(isClosedAllDay: Bool = false,
+         closingHour: String?,
+         dayOfWeek: Int = 0,
+         holidayName: String?,
+         openingHour: String?,
+         isRegularBusinessHours: Bool = false) {
+        self.isClosedAllDay = isClosedAllDay
+        self.closingHour = closingHour
+        self.dayOfWeek = dayOfWeek
+        self.holidayName = holidayName
+        self.openingHour = openingHour
+        self.isRegularBusinessHours = isRegularBusinessHours
     }
 }
 
@@ -101,6 +127,24 @@ public struct Branch: Codable, Identifiable, Sendable {
         case occupancyName = "OccupancyName"
         case description = "Description"
         case businessHours = "BusinessHours"
+    }
+    
+    init(id: Int = 0,
+         address: Address = .init(),
+         branchNumber: String = "",
+         occupancy: Int = 0,
+         occupancyColor: String = "",
+         occupancyName: String = "",
+         description: String = "",
+         businessHours: [BusinessHour] = []) {
+        self.id = id
+        self.address = address
+        self.branchNumber = branchNumber
+        self.occupancy = occupancy
+        self.occupancyColor = occupancyColor
+        self.occupancyName = occupancyName
+        self.description = description
+        self.businessHours = businessHours
     }
 }
 
