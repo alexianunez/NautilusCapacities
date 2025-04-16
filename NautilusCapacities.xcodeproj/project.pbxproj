@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		70D9C6982DAA946C0091D50D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D9C6972DAA946C0091D50D /* WidgetKit.framework */; };
-		70D9C69A2DAA946C0091D50D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D9C6992DAA946C0091D50D /* SwiftUI.framework */; };
 		70D9C6A52DAA946D0091D50D /* WidgetComplicationExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 70D9C6952DAA946C0091D50D /* WidgetComplicationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		70EEDF7E2DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 70EEDF5E2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -88,8 +86,6 @@
 		707B70B62DA9C238008DFA72 /* NautilusCapacitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NautilusCapacitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		707B70C02DA9C238008DFA72 /* NautilusCapacitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NautilusCapacitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D9C6952DAA946C0091D50D /* WidgetComplicationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetComplicationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		70D9C6972DAA946C0091D50D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
-		70D9C6992DAA946C0091D50D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		70EEDF5E2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NautilusCapacitiesWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70EEDF6A2DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NautilusCapacitiesWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70EEDF742DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NautilusCapacitiesWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,8 +182,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70D9C69A2DAA946C0091D50D /* SwiftUI.framework in Frameworks */,
-				70D9C6982DAA946C0091D50D /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +219,6 @@
 				70EEDF6D2DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppTests */,
 				70EEDF772DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppUITests */,
 				70D9C69B2DAA946C0091D50D /* WidgetComplication */,
-				70D9C6962DAA946C0091D50D /* Frameworks */,
 				707B70AA2DA9C237008DFA72 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -242,15 +235,6 @@
 				70D9C6952DAA946C0091D50D /* WidgetComplicationExtension.appex */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		70D9C6962DAA946C0091D50D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				70D9C6972DAA946C0091D50D /* WidgetKit.framework */,
-				70D9C6992DAA946C0091D50D /* SwiftUI.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
