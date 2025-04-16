@@ -9,41 +9,55 @@ import WidgetKit
 import SwiftUI
 
 struct Provider: AppIntentTimelineProvider {
+    private let apiClient = APIClient.shared
+    
     func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date(), configuration: ConfigurationAppIntent())
+        SimpleEntry(date: Date(), configuration: ConfigurationAppIntent(), occupancy: 25)
     }
 
     func snapshot(for configuration: ConfigurationAppIntent, in context: Context) async -> SimpleEntry {
-        SimpleEntry(date: Date(), configuration: configuration)
+        SimpleEntry(date: Date(), configuration: configuration, occupancy: 25)
     }
     
     func timeline(for configuration: ConfigurationAppIntent, in context: Context) async -> Timeline<SimpleEntry> {
         var entries: [SimpleEntry] = []
-
-        // Generate a timeline consisting of five entries an hour apart, starting from the current date.
         let currentDate = Date()
-        for hourOffset in 0 ..< 5 {
-            let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
-            let entry = SimpleEntry(date: entryDate, configuration: configuration)
-            entries.append(entry)
-        }
+        
+        do {
+            let branches = try await apiClient.fetchBranches().sorted { $0.description.trimmingCharacters(in: .whitespacesAndNewlines) < $1.description.trimmingCharacters(in: .whitespacesAndNewlines) }
+            
+            let branch = branches.first(where: { FavoritesManager.shared.isFavorite($0)}) ?? branches.first
+            
+            guard let branch else {
+                return Timeline(entries: [], policy: .atEnd)
+            }
+                        
+            for minuteOffset in stride(from: 0, through: 120, by: 15) {
+                let entryDate = Calendar.current.date(byAdding: .minute, value: minuteOffset, to: currentDate)!
+                let entry = SimpleEntry(
+                    date: entryDate,
+                    configuration: configuration,
+                    occupancy: branch.occupancy
+                )
+                entries.append(entry)
+            }
+            return Timeline(entries: entries, policy: .after(entries.last?.date ?? currentDate))
 
-        return Timeline(entries: entries, policy: .atEnd)
+        } catch {
+            return Timeline(entries: [], policy: .atEnd)
+        }
     }
 
     func recommendations() -> [AppIntentRecommendation<ConfigurationAppIntent>] {
         // Create an array with all the preconfigured widgets to show.
         [AppIntentRecommendation(intent: ConfigurationAppIntent(), description: "Favorite Gym Capacity")]
     }
-
-//    func relevances() async -> WidgetRelevances<ConfigurationAppIntent> {
-//        // Generate a list containing the contexts this widget is relevant in.
-//    }
 }
 
 struct SimpleEntry: TimelineEntry {
     let date: Date
     let configuration: ConfigurationAppIntent
+    let occupancy: Int
 }
 
 struct WidgetComplicationEntryView : View {
@@ -52,7 +66,7 @@ struct WidgetComplicationEntryView : View {
     var body: some View {
         VStack {
             CircularProgressView(
-                progress: Double(entry.configuration.capacity) / 100.0
+                progress: Double(entry.occupancy) / 100.0
             )
         }
     }
@@ -62,6 +76,9 @@ struct CircularProgressView: View {
     let progress: Double
     
     var body: some View {
+        VStack {
+            
+        }
         ZStack {
             Circle()
                 .stroke(Color.gray.opacity(0.2), lineWidth: 8)
@@ -106,23 +123,10 @@ struct WidgetComplication: Widget {
     }
 }
 
-extension ConfigurationAppIntent {
-    fileprivate static var fifty: ConfigurationAppIntent {
-        let intent = ConfigurationAppIntent()
-        intent.capacity = 50
-        return intent
-    }
-    
-    fileprivate static var seventyFive: ConfigurationAppIntent {
-        let intent = ConfigurationAppIntent()
-        intent.capacity = 75
-        return intent
-    }
-}
-
 #Preview(as: .accessoryRectangular) {
     WidgetComplication()
 } timeline: {
-    SimpleEntry(date: .now, configuration: .fifty)
-    SimpleEntry(date: .now, configuration: .seventyFive)
+    SimpleEntry(date: .now,
+                configuration: ConfigurationAppIntent(),
+                occupancy: 25)
 }

@@ -84,7 +84,7 @@ struct CircularProgressView: View {
                 .stroke(progressColor, style: StrokeStyle(lineWidth: 4, lineCap: .round))
                 .rotationEffect(.degrees(-90))
             
-            Text("\(Int(progress * 100))%")
+            Text("\(Int(progress * 100))")
                 .font(.system(.caption2, design: .rounded))
                 .bold()
         }

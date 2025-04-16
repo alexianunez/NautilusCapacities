@@ -1,4 +1,5 @@
 import Foundation
+import WidgetKit
 
 class FavoritesManager {
     static let shared = FavoritesManager()
@@ -16,6 +17,7 @@ class FavoritesManager {
             } else {
                 UserDefaults.standard.removeObject(forKey: favoritesKey)
             }
+            WidgetCenter.shared.reloadAllTimelines()
         }
     }
     
