@@ -85,6 +85,7 @@
 		707B70A92DA9C237008DFA72 /* NautilusCapacities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NautilusCapacities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		707B70B62DA9C238008DFA72 /* NautilusCapacitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NautilusCapacitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		707B70C02DA9C238008DFA72 /* NautilusCapacitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NautilusCapacitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D6BB7D2DB14E4700C39CA1 /* WidgetComplicationExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetComplicationExtension.entitlements; sourceTree = "<group>"; };
 		70D9C6952DAA946C0091D50D /* WidgetComplicationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetComplicationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		70EEDF5E2DA9CF0C006D1939 /* NautilusCapacitiesWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NautilusCapacitiesWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70EEDF6A2DA9CF0E006D1939 /* NautilusCapacitiesWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NautilusCapacitiesWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +98,7 @@
 			membershipExceptions = (
 				Models/FavoritesManager.swift,
 				Networking/APIClient.swift,
+				ViewModels/BranchesViewModel.swift,
 				ViewModels/Entities.swift,
 			);
 			target = 70D9C6942DAA946C0091D50D /* WidgetComplicationExtension */;
@@ -208,6 +210,7 @@
 		707B70A02DA9C237008DFA72 = {
 			isa = PBXGroup;
 			children = (
+				70D6BB7D2DB14E4700C39CA1 /* WidgetComplicationExtension.entitlements */,
 				707B70AB2DA9C237008DFA72 /* NautilusCapacities */,
 				707B70B92DA9C238008DFA72 /* NautilusCapacitiesTests */,
 				707B70C32DA9C238008DFA72 /* NautilusCapacitiesUITests */,
@@ -724,7 +727,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = NautilusCapacities/NautilusCapacities.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4326L6N74Q;
@@ -756,7 +759,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = NautilusCapacities/NautilusCapacities.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4326L6N74Q;
@@ -859,6 +862,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetComplicationExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4326L6N74Q;
@@ -889,6 +893,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetComplicationExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4326L6N74Q;
@@ -919,7 +924,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = "NautilusCapacitiesWatch Watch App/NautilusCapacitiesWatch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4326L6N74Q;
@@ -949,7 +954,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = "NautilusCapacitiesWatch Watch App/NautilusCapacitiesWatch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4326L6N74Q;

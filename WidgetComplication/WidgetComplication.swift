@@ -32,16 +32,15 @@ struct Provider: AppIntentTimelineProvider {
                 return Timeline(entries: [], policy: .atEnd)
             }
                         
-            for minuteOffset in stride(from: 0, through: 120, by: 15) {
-                let entryDate = Calendar.current.date(byAdding: .minute, value: minuteOffset, to: currentDate)!
-                let entry = SimpleEntry(
-                    date: entryDate,
-                    configuration: configuration,
-                    occupancy: branch.occupancy
-                )
-                entries.append(entry)
-            }
-            return Timeline(entries: entries, policy: .after(entries.last?.date ?? currentDate))
+            let entry = SimpleEntry(
+                date: currentDate,
+                configuration: configuration,
+                occupancy: branch.occupancy
+            )
+            entries.append(entry)
+            
+            // CHANGE: Update more frequently
+            return Timeline(entries: entries, policy: .after(currentDate.addingTimeInterval(300))) // 5 minutes
 
         } catch {
             return Timeline(entries: [], policy: .atEnd)
@@ -120,6 +119,10 @@ struct WidgetComplication: Widget {
             WidgetComplicationEntryView(entry: entry)
                 .containerBackground(.fill.tertiary, for: .widget)
         }
+        .configurationDisplayName("Gym Capacity")
+        .description("Shows your favorite gym's capacity")
+        .supportedFamilies([.accessoryCircular, .accessoryRectangular])
+        .contentMarginsDisabled()
     }
 }
 

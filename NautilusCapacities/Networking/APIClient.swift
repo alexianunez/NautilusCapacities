@@ -11,6 +11,18 @@ actor APIClient {
     static let shared = APIClient()
     private let baseURL = "https://www.nautilusplus.com/content/themes/nautilus/ajax/ajax-apinautilusplus.php"
     
+    // ADD: URLSession with background configuration
+    private lazy var session: URLSession = {
+        let config = URLSessionConfiguration.default
+        config.allowsExpensiveNetworkAccess = true
+        config.allowsConstrainedNetworkAccess = true
+        config.waitsForConnectivity = true
+#if os(watchOS)
+        config.sessionSendsLaunchEvents = true
+#endif
+        return URLSession(configuration: config)
+    }()
+    
     private init() {}
     
     func fetchBranches() async throws -> [Branch] {
@@ -24,7 +36,7 @@ actor APIClient {
         request.httpBody = "action=GetBranches".data(using: .utf8)
         
         do {
-            let (data, response) = try await URLSession.shared.data(for: request)
+            let (data, response) = try await session.data(for: request)
             
             guard let httpResponse = response as? HTTPURLResponse,
                   (200...299).contains(httpResponse.statusCode) else {

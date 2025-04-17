@@ -1,4 +1,5 @@
 import SwiftUI
+import WidgetKit
 
 struct BranchDetailView: View {
     let branch: Branch
@@ -67,7 +68,9 @@ struct BranchDetailView: View {
                 // Favorite Button
                 Button(action: {
                     FavoritesManager.shared.toggleFavorite(branch)
+                    
                     viewModel.fetchBranches() // This will now update the shared view model
+                    WidgetCenter.shared.reloadAllTimelines()
                     dismiss() // Return to list to see the update
                 }) {
                     HStack {

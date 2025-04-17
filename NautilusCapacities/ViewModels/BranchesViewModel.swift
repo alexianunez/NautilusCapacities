@@ -22,7 +22,7 @@ class BranchesViewModel: ObservableObject {
                             return false
                         }
                         // Then sort by occupancy
-                        return branch1.description.trimmingCharacters(in: .whitespacesAndNewlines) < branch2.description.trimmingCharacters(in: .whitespacesAndNewlines)
+                        return branch1.occupancyName > branch2.occupancyName
                     }
             } catch {
                 self.error = error
