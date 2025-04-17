@@ -16,7 +16,11 @@ class FavoritesManager {
     
     var favoriteBranchId: Int? {
         get {
-            userDefaults.integer(forKey: favoritesKey)
+            if userDefaults.object(forKey: favoritesKey) != nil {
+                return userDefaults.integer(forKey: favoritesKey)
+            } else {
+                return nil
+            }
         }
         set {
             if let newValue = newValue {
