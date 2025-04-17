@@ -24,7 +24,7 @@ struct Provider: AppIntentTimelineProvider {
         let currentDate = Date()
         
         do {
-            let branches = try await apiClient.fetchBranches().sorted { $0.description.trimmingCharacters(in: .whitespacesAndNewlines) < $1.description.trimmingCharacters(in: .whitespacesAndNewlines) }
+            let branches = try await apiClient.fetchBranches().sorted { $0.occupancy > $1.occupancy }
             
             let branch = branches.first(where: { FavoritesManager.shared.isFavorite($0)}) ?? branches.first
             
