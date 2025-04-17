@@ -39,9 +39,12 @@ struct ContentView: View {
                             }
                         }
                     }
+                    Button(label: "Refresh") {
+                        viewModel.fetchBranches()
+                    }
                 }
             }
-            .navigationTitle("Branch Capacities")
+            .navigationTitle("Nautilus Plus")
         }
         .task {
             viewModel.fetchBranches()
