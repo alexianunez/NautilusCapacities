@@ -1,31 +1,26 @@
+// The Swift Programming Language
+// https://docs.swift.org/swift-book
+
+import Entities
 import Foundation
 
-enum APIError: Error {
+public enum APIError: Error {
     case invalidURL
     case networkError(Error)
     case invalidResponse
     case decodingError(Error)
 }
 
-actor APIClient {
-    static let shared = APIClient()
+@available(iOS 13.0.0, *)
+@available(watchOS 8.0, *)
+
+public actor APIClient {
+    public static let shared = APIClient()
     private let baseURL = "https://www.nautilusplus.com/content/themes/nautilus/ajax/ajax-apinautilusplus.php"
-    
-    // ADD: URLSession with background configuration
-    private lazy var session: URLSession = {
-        let config = URLSessionConfiguration.default
-        config.allowsExpensiveNetworkAccess = true
-        config.allowsConstrainedNetworkAccess = true
-        config.waitsForConnectivity = true
-#if os(watchOS)
-        config.sessionSendsLaunchEvents = true
-#endif
-        return URLSession(configuration: config)
-    }()
     
     private init() {}
     
-    func fetchBranches() async throws -> [Branch] {
+    public func fetchBranches() async throws -> [Branch] {
         guard let url = URL(string: baseURL) else {
             throw APIError.invalidURL
         }
@@ -36,7 +31,7 @@ actor APIClient {
         request.httpBody = "action=GetBranches".data(using: .utf8)
         
         do {
-            let (data, response) = try await session.data(for: request)
+            let (data, response) = try await URLSession.shared.data(for: request)
             
             guard let httpResponse = response as? HTTPURLResponse,
                   (200...299).contains(httpResponse.statusCode) else {
